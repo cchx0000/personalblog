@@ -1,0 +1,72 @@
+baseurl = "https://example.org/"
+title = "国风链"
+theme = "hugo-nederburg-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+
+[params]
+  slogan = "让艺术品投资不再高高在上"
+  description = "Describe your website" # meta description
+  author = "国风链基金会"
+  authorLink = "https://cscchain.io/"
+  bio = [
+    "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
+  ]
+  copyright = [
+    "&copy; 2018 国风链基金会",
+    "所有内容版权归 [国风链基金会](https://cscchain.io)所有。",
+    "转载需经法律授权。"
+  ]
+
+
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below (it is also used in Gravatar for the bio).
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "goran@molnsys.com"
+
+  # Nav links in the side bar
+  [[menu.main]]
+  name = "回到主页"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  name = "项目介绍"
+  url = "project/"
+  weight = 2
+
+  [[menu.main]]
+  name = "团队介绍"
+  url = "team/"
+  weight = 3
+
+  [[menu.main]]
+  name = "联系我们"
+  url = "contact/"
+  weight = 4
+
+  [params.social]
+  facebook      = "full profile url in facebook"
+  googleplus    = "full profile url in googleplus"
+  email         = "email@example.com"
+  twitter       = "full profile url in twitter"
+  linkedin      = "full profile url in linkedin"
+  stackoverflow = "full profile url in stackoverflow"
+  instagram     = "full profile url in instagram"
+  github        = "full profile url in github"
+  pinterest     = "full profile url in pinterest"
+  rss           = true
