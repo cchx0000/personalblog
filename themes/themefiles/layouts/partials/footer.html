@@ -1,22 +1,22 @@
 <footer id="site-footer" class="site-footer" role="contentinfo">
 	<h1>
-    {{ with .Site.Title }}
-    <a href=""> {{ . }} </a>
-    {{ end }}
-	</h1>
-
-			{{ with .Site.Params.Slogan }}
-			<p class="site-description">{{ . | default "" | safeHTML }}</p>
-			{{ end }}
-
-		<div id="menu-footer" class="menu-container menu-footer" role="navigation">
-		<div class="menu">
-
-      <ul id="menu-footer-items" class="menu-footer-items">
-        {{ range $name, $taxonomy := .Site.Params.Navlinks }}
-        <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="/{{ $taxonomy.url | urlize }}">{{ $taxonomy.name }}</a></li>
+        {{ with .Site.Title }}
+        <a href=""> {{ . }} </a>
         {{ end }}
-</ul>
+        </h1>
+    
+                {{ with .Site.Params.Slogan }}
+                <p class="site-description">{{ . | default "" | safeHTML }}</p>
+                {{ end }}
+    
+            <div id="menu-footer" class="menu-container menu-footer" role="navigation">
+            <div class="menu">
+    
+          <ul id="menu-footer-items" class="menu-footer-items">
+            {{ range $name, $taxonomy := .Site.Params.Navlinks }}
+            <li id="menu-item" class="menu-item menu-item-type-post_type menu-item-object-page menu-item"><a href="/{{ $taxonomy.url | urlize }}">{{ $taxonomy.name }}</a></li>
+            {{ end }}
+    </ul>
 
 </div>	</div>
 

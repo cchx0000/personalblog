@@ -1,5 +1,5 @@
-baseurl = "https://example.org/"
-title = "国风链"
+baseurl = "http://chenxi.life/"
+title = "Inverted Perspectives"
 theme = "themefiles"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
@@ -7,20 +7,19 @@ disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
+paginate = 10 #frontpage pagination
 
 [params]
-  slogan = "让艺术品投资不再高高在上"
+  slogan = "Blockchain, Financial Markets, and Society"
   description = "Describe your website" # meta description
-  author = "国风链基金会"
-  authorLink = "https://cscchain.io/"
+  author = "Chenxi Cai"
+  authorLink = "https://chenxi.life/"
   bio = [
-    "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
+    "Chenxi writes articles about blockchain technology and how it will transform the financial world. His personal website is <a href='http://chenxi.life/'>chenxi.life</a>. He currently is an MBA candidate at Arizona State University."
   ]
   copyright = [
-    "&copy; 2018 国风链基金会",
-    "所有内容版权归 [国风链基金会](https://cscchain.io)所有。",
-    "转载需经法律授权。"
+    "&copy; 2018 Chenxi Cai",
+    "All Rights Reserved"
   ]
 
 
@@ -36,26 +35,26 @@ paginate = 5 #frontpage pagination
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "goran@molnsys.com"
+  email = "chenxi_cai@live.com"
 
   # Nav links in the side bar
   [[menu.main]]
-  name = "回到主页"
+  name = "Home"
   url = "/"
   weight = 1
 
   [[menu.main]]
-  name = "项目介绍"
+  name = "My Projects"
   url = "project/"
   weight = 2
 
   [[menu.main]]
-  name = "团队介绍"
+  name = "About Me"
   url = "team/"
   weight = 3
 
   [[menu.main]]
-  name = "联系我们"
+  name = "Get In Touch"
   url = "contact/"
   weight = 4
 

@@ -1,21 +1,30 @@
 +++
 date = "2016-11-05T21:05:33+05:30"
-title = "About me"
+title = "My Projects"
 +++
 
-An sincerity so extremity he additions. Her yet **there truth merit**. Mrs all projecting favourable now unpleasing. Son law garden chatty temper. Oh children provided to mr elegance marriage strongly. Off can admiration prosperous now devonshire diminution law.
 
-Received overcame oh sensible so at an. Formed do change merely to county it. **Am separate contempt** domestic to to oh. On relation my so addition branched. Put hearing cottage she norland letters equally prepare too. Replied exposed savings he no viewing as up. Soon body add him hill. No father living really people estate if. Mistake do produce beloved demesne if am pursuit.
 
-![This is me][1]
+**国风链（China Style Chain）**是以“国风链”团队为核心打造的，专门面向中国文化艺术品产业的区块链底层技术和资产交易平台，以及由此构建的文化艺术品经济生态。
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
 
-#### Education
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+#### 愿景
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then
+* 以区块链技术为支撑，依托中国经济全球化发展，将中国文化传遍世界每个角落。
+* 通过提前布局有潜力升值空间的艺术家和艺术品，享受“中国艺术，全球市场”的确定性升值空间。
 
-[1]: /img/about.jpg
+
+#### 技术特点
+
+* 降低门槛，人人参与交易。
+* 艺术品溯源和版权保护。
+
+#### 参与者
+
+* 艺术家
+* 艺术品拥有者
+* 粉丝
+* 服务机构
+* 投资人
+* 其他机构
